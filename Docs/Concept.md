@@ -12,7 +12,8 @@ Player can upgrade abilities in Main Menu using points gathered throughout the r
 
 ## **Art Style**
 Both scenery and user interface will follow a vector-simplistic theme with a touch of vibrant tones:
-![ConceptGraphic1](Docs/ConceptGraphic1.png)
+![ConceptGraphic1](ConceptGraphic1.jpg)
+
 Enemy graphics and important elements should stand out both in color and shape, aiming for better player experiences and for color-blind individuals. The gameplay shall not include particle effects, camera movements, or flashing lights to ensure comfort even for more sensitive players.
 
 ## **Monetization & Market**
