@@ -135,14 +135,15 @@ Using abilities other than *Dash* shoots projectiles, at coursor position, that 
 * Boomerang 
   * Every 2.5 seconds shoots a crescent projectile that passes through enemies and returns to the player
 
-Player can access Pause screen through one of these actions:
-* Pressing ESC button
+Player can access Pause screen through one of these events:
+* Pressing the "P" key during gameplay
   * "PAUSE" text displays above Restart button
-  * Press ESC again to exit 
+  * Press "P" again to exit 
 * Loosing all three health states
   * "DEFEAT" text displays above Restart button
 * Defeating all enemies after the 10:00 minute mark
   * "VICTORY" text displays above Restart button
 
 Displaying Pause screen sets ingame time scale to 0.  
-![ConceptGraphic1](DesignGraphicPause.jpg)
+![ConceptGraphic1](DesignGraphicPause.jpg)  
+Quit button takes player back to Main Menu, while Restart button is synonymous with Start button.
