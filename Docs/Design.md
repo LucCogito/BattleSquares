@@ -136,9 +136,9 @@ Using abilities other than *Dash* shoots projectiles, at coursor position, that 
   * Every 2.5 seconds shoots a crescent projectile that passes through enemies and returns to the player
 
 Player can access Pause screen through one of these events:
-* Pressing ESC button
+* Pressing the "P" key during gameplay
   * "PAUSE" text displays above Restart button
-  * Press ESC again to exit 
+  * Press "P" again to exit 
 * Loosing all three health states
   * "DEFEAT" text displays above Restart button
 * Defeating all enemies after the 10:00 minute mark
