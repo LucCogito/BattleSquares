@@ -10,7 +10,7 @@ public abstract class ShapeEntity : MonoBehaviour
     protected IInputSource _inputSource;
     protected Movement _movement;
 
-    private void Update()
+    protected virtual void Update()
     {
         _inputSource.Tick();
     }

@@ -6,6 +6,8 @@ public class Player : ShapeEntity
 {
     [SerializeField]
     private float _maxSpeed, _acceleration;
+    [SerializeField]
+    private AbilitySystem _abilitySystem;
 
     private void Awake()
     {
@@ -15,6 +17,13 @@ public class Player : ShapeEntity
     private void Start()
     {
         _movement = new EightDirectionMovement(_rigidbody, _maxSpeed, _acceleration);
+        _abilitySystem?.Initialize(_inputSource);
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        _abilitySystem?.Tick();
     }
 
     public void SetTestParameters(float maxSpeed, float acceleration)
