@@ -37,7 +37,7 @@ Player can press purple Return button at any time to return to Main Menu.
  ## **Gameplay**
 
 ![ConceptGraphic1](DesignGraphicGameplay.jpg)  
-All ingame entities behave like floating ships, that slowly turn and propel through the space, while their movement can be disturbed by knockback.
+All enemies behave like floating ships, that slowly turn and propel through the space, while their movement can be disturbed by knockback. Player, on the other hand, has a snappy, rotation independent movement that is determined by input keys.
 
  ### Enemies
  After pressing the start button, menu interface disappears, revealing the player square behind it. Right from the beginning, enemies spawn outside the board at intervals of 1.10 seconds, which decreases by 0.05 seconds per minute of gameplay, reaching a spawning frequency of 0.65 seconds at the 9:00 minute mark. The type of spawned enemy is randomly chosen each time according to the following percentage table:
